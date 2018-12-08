@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADA student feedback</title>
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+  <div class="header">
+    <h1 class="title1"><span>ADA </span>Students feedback</h1>
+    <div class="wrapper ">
+      <div class="info">
+        <img src="https://us.123rf.com/450wm/robisklp/robisklp1510/robisklp151000001/45873381-we-want-you-with-finger-pointing-towards-you.jpg?ver=6" alt="" width="100%">
+        <h3>To give us feedback, because this course is made for you! Because it's all about you!</h3>
+        <p>Fill this form if you:</p>
+        <ul>
+          <li></i> - Find an error in the content or in the quizzes</li>
+          <li></i> - Have a feedback about instructors or the experience</li>
+          <li></i> - Have a suggestion on how to make the course better</li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Email Us</h3>
+        <form id="contactForm">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" id="name">
+          </p>
+          <p>
+            <label>Track</label>
+            <select name="track" id="track">
+              <option value="all">ALL</option>
+              <option value="web">Web</option>
+              <option value="game">Game</option>
+            </select>
+          </p>
+          <p>
+            <label>Slide name (or object)</label>
+            <input type="text" name="slide" required="true" id="slide" >
+          </p>
+          <p class="full">
+            <label>Message</label>
+            <textarea name="message" rows="5" id="message"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+<script src="main.js"></script>
+</html>
